@@ -1,5 +1,4 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 import styled from 'styled-components/native';
 
 const Container = styled.View`
@@ -18,12 +17,12 @@ const Title = styled.Text`
 `;
 
 const App = () => {
-    return (
-        <Container>
-            <Title>Brew Buddy</Title>
-            <StatusBar style="auto" />
-        </Container>
-    );
+  return (
+    <Container>
+      <Title>Brew Buddy</Title>
+      <StatusBar style="auto" />
+    </Container>
+  );
 }
 
 export default App;
